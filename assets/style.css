@@ -1,5 +1,20 @@
+main {
+    background-color: lightslategray;
+}
+
+.firstLetter::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+}
+
 .footer {
     text-align: center;
+    border-top: 5px solid rgb(51, 73, 73);
+}
+
+.bioImage {
+    float: left;
+    margin: 25px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -27,8 +42,14 @@
         float: right;
         justify-content: right;
     }
+
+    main {
+        margin: 0 10%;
+    }
 }
 
 @media only screen and (min-width: 980px) {
-    
+    main {
+        margin: 0 20% 0 5%;
+    }
 }
