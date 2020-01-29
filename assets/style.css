@@ -1,7 +1,32 @@
+.footer {
+    text-align: center;
+}
 
+@media only screen and (max-width: 767px) {
+    .navbar-nav, .navbar-brand {
+        float:none;
+        margin:0 auto;
+        display: block;
+        text-align: center;
+    }
+
+    .navbar-nav > li {
+        display: inline-block;
+        float:none;
+    }
+}
 
 @media only screen and (min-width: 768px) {
-    
+    nav {
+        width: 50%;
+        float: left;
+    }
+
+    .navbar-nav > ul {
+        text-align: right;
+        float: right;
+        justify-content: right;
+    }
 }
 
 @media only screen and (min-width: 980px) {
